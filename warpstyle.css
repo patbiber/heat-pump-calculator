@@ -1,0 +1,248 @@
+	body {
+		padding: 0px;
+		margin: 0px;
+		background-color: #CCCCCC;
+		font: 14px/1.5 Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;		
+	}
+
+@-webkit-keyframes pulse {
+  from {
+    opacity: 0.0;
+    font-size: 100%;
+  }
+  to {
+    opacity: 1.0;
+    font-size: 200%;
+  }
+}
+
+
+h1 {
+  font-size: 25px;
+  color: #191970;
+}
+
+h2 {
+  font-size: 21px;
+}
+
+h3 {
+  font-size: 16px;
+
+}
+
+h4 {
+  -webkit-animation-name: pulse;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-direction: alternate;
+	color: white;
+  font-size: 25px;
+}
+
+
+h5 {
+  font-size: 17px;
+}
+
+h6 {
+  font-size: 15px;
+}
+	a {
+	-webkit-transition: background-color, color 0.4s linear;
+	}
+	a:link, a:visited {
+	color: #6eb43f;
+	text-decoration: none;
+	}
+	a:hover, a:active {
+	color: #000;
+	}
+	a:focus {
+	outline: none;
+	}
+
+	
+	.bodyTable {
+		width: 900px;
+		margin-left:auto;margin-right:auto;
+		vertical-align:top;
+	}
+		
+	/* Start Main Column */
+	#mainColumn {
+		width: 860px;
+	}	
+	.mainColumn {
+		vertical-align:top;
+		height: 100%;
+		padding-top: 0px;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 0px;
+		background-color: #FFFFFF;	
+		color: #303030;
+		border-right: 100;
+		border-left: none;
+		border-top: none;
+		border-bottom: none;			
+	}
+			
+	.mainColumn H2 {
+		color: black; margin-top: 30px; margin-bottom: 20px; background-color: #CCC; padding-left: 5px; padding-right: 5px;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+	}
+	.mainColumn a {
+		color: #336699; text-decoration: none;
+	}
+	.mainColumn a:hover {
+		color: #336699; text-decoration: underline;
+
+	}
+	/* End footer */	
+	
+	
+	/* Start header */
+	nav {
+		min-height: auto;
+	}
+	/* for Internet Explorer */
+	/*\*/
+	* html nav {
+	height: auto;
+	}
+	/**/	
+	nav {
+		vertical-align:top;
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		background-color: #FFFFFF;
+		font-size: 11px;
+		line-height: 14px;
+		border-right: none;
+		border-left: none;
+		border-top: none;
+		border-bottom: none;			
+	}	
+	nav H2 {
+		margin-top: 0px; margin-bottom: 5px; font-size: 14px; line-height: 18px;
+	}
+	nav a {
+		
+	}
+	nav a:hover {
+		
+	}
+	/* End header */
+	
+	/* Start footer */
+	#footer {
+		min-height: auto;
+	}
+	/* for Internet Explorer */
+	/*\*/
+	* html #footer {
+	height: auto;
+	}
+	/**/
+	
+	.footer {
+		vertical-align:top;
+		padding-top: 20px;
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		background-color: #FFFFFF;
+		
+		font-size: 10px;
+		line-height: 14px;
+		color: #999999;
+		
+		border-right: none;
+		border-left: none;
+		border-top: none;
+		border-bottom: none;		
+	}	
+	.footer H2 {
+		color: black; margin-top: 0px; margin-bottom: 5px; font-size: 14px; line-height: 18px;
+	}
+	.footer a {
+		color: #999999;
+	}
+	.footer a:hover {
+		color: #666666;
+	}
+	/* End footer */			
+
+
+	/* horizontal sep file*/			
+#horizontal ul {
+	margin: 0px 0px 0px 0px; /* oben / rechts / unten / links */
+	padding: 20px 20px 20px 20px; /* oben / rechts / unten / links */
+	background-color: #000033;
+/*			-moz-border-radius: 5px; */
+/*			-webkit-border-radius: 5px; */
+/*			border-radius: 5px; */
+}
+
+#horizontal a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#horizontal ul li { 
+	display: inline;
+}
+	
+/* First Level */
+#horizontal li a {
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+
+
+#horizontal li.active a {
+	color: #FF0000;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+#horizontal li a:hover {
+	color: #FF0000;
+}
+
+#horizontal li.select a { color: #FF0000; 
+	background-color:#FFFFFF;
+	font-weight: bold;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
+/* partnerbanner */
+
+.partner {
+		padding-top: 20px;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-bottom: 0px;
+		background-color: #FFFFFF;
+		color: #999999;	
+}	
+
+.b1 {
+	list-style-image: url(pics/b1.png);
+	font-weight: bold;
+	line-height: 200%;
+}
+
