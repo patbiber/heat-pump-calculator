@@ -65,7 +65,7 @@
                                    echo("<img src=pics/caution.jpg> Sie verbrauchen sehr viel Energie für die Heizung, eine Sanierung der Gebäudehülle wird sicher den Komfort erhöhen und grosse Kosteneinspahrungen bringen.");
                                              } 
 
-                                        elseif(qm >= 31){ 
+                                        elseif($qm >= 31){ 
                                         echo("<img src=pics/caution.jpg> Ihr Energieverbrauch ist im Mittelfeld, wenn Sie teure Energie wie Öl oder Strom verbrauchen, könnte sich eine Sanierung an der Gebäudehülle lohnen. Sie können aber bereits jetzt auf ein alternatives Heizssystem umsteigen.");   
                                              } 
                                    else {   
