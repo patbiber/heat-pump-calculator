@@ -75,7 +75,7 @@
                          ?>
                          <br><br>
 
-                    <a href="..">back</a>
+                    <a href="https://biber.solar/heat-pump-calculator">zurück zum Wäremepumpenrechner</a>
                     <?PHP include ('footer.php'); ?>
      </body>
 </html>
