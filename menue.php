@@ -5,8 +5,7 @@
 				<nav> 
 					<div id="horizontal">
 						<ul class="level2">
-							<li <?PHP if ($_SERVER['SCRIPT_FILENAME']=="/var/www/vhosts/network-it.ch/httpdocs/index.php"){ echo "class=\"select\""; } ?>><a href="index.php">Home</a></li>
-							<li <?PHP if ($_SERVER['SCRIPT_FILENAME']=="/var/www/vhosts/network-it.ch/httpdocs/kontakt.php"){ echo "class=\"select\""; } ?>><a href="http://network-it.ch/kontakt.php">Kontakt</a>
+							<li <?PHP if ($_SERVER['SCRIPT_FILENAME']=="/var/www/vhosts/network-it.ch/httpdocs/index.php"){ echo "class=\"select\""; } ?>><a href="biber.solar">Home</a></li>
 						</ul>
 					</div>
 				</nav> 

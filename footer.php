@@ -5,7 +5,7 @@
 <div id="footer">
 <br>
 <footer>
-     biber.solar  
+     2024 <a href="https://biber.solar">biber.solar</a> ein <a href="https://biber.solutions/">biber.solutions</a> Projekt.  
 </footer>
 
 
