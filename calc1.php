@@ -21,10 +21,6 @@
                                    echo("Bitte Verbrauch eingeben"); 
                               } 
 
-                              if(!preg_match("[0-9]", $number1)){ 
-                                   echo("Bitte nur Nummern eingeben"); 
-                              } 
-
                          if($ww == "ja" and $hoch == "ja"){
                               $result =sprintf("%01.1f",$number1 / 330); 
                               echo("für $number1 l Öl mit Warmwasseraufbereitung ist die benötigte Heizleistung bei über 800m $result kW<br><br>");
@@ -78,8 +74,8 @@
                                    }
                          ?>
                          <br><br>
-                         weitere Informationen beim Fachplaner Ihrer Wahl, checken Sie die Anzeigen hier:
 
-                         <?PHP include ('footer.php'); ?>
+                    <a href="..">back</a>
+                    <?PHP include ('footer.php'); ?>
      </body>
 </html>
