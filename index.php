@@ -19,8 +19,8 @@
                                 Ölverbrauch <input type=text name=value1 size=5> Liter pro Jahr<br><br>  
                                 <input type=checkbox name=hoch value="ja">über 800 meter über Meer <input type=checkbox name=ww value="ja">mit Warmwasseraufbereitung
                                 <br><br>
-                                EW Sperrdauer am Tag<input type=text name=ew size=2> Stunden<br><br>
-                                Wohnfläche<input type=text name=wf size=4> m2<br><br>
+                                EW Sperrdauer am Tag <input type=text name=ew size=2> Stunden<br><br>
+                                Wohnfläche <input type=text name=wf size=4> m2<br><br>
                                 <input type=submit value="berechnen"> 
                         </form>
         <?PHP include ('footer.php'); ?>
