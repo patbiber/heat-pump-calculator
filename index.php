@@ -10,10 +10,10 @@
                         <h2>Berechnung der Wärmepumpenleistung anhand des jährlichen Ölverbrauchs</h2>
                         <div style="float:right"><a href="http://network-it.ch"><img alt="Wärmepumpenrechner" border="0" src="pics/calculator.png"/></a></div>
                         <p>
-                        Der Ersatz einer alten Ölheizung durch eine Wärmepumpe ist eine sinnvolle Entscheidung für mehr Nachhaltigkeit und Effizienz. Wärmepumpen nutzen erneuerbare Energiequellen wie die Luft oder das Erdreich und sind damit nicht nur umweltfreundlicher, sondern langfristig auch kosteneffizienter. Sie reduzieren den CO₂-Ausstoß erheblich, tragen zum Klimaschutz bei und verringern die Abhängigkeit von fossilen Brennstoffen. Zudem profitiert man von stabileren Energiekosten, da die Preise für fossile Brennstoffe stark schwanken.
+                        Der Ersatz einer alten Ölheizung durch eine Wärmepumpe ist eine sinnvolle Entscheidung für mehr Nachhaltigkeit und Effizienz. Wärmepumpen nutzen erneuerbare Energiequellen wie die Luft oder das Erdreich und sind damit nicht nur umweltfreundlicher, sondern langfristig auch kosteneffizienter. Sie reduzieren den CO₂-Ausstoss erheblich, tragen zum Klimaschutz bei und verringern die Abhängigkeit von fossilen Brennstoffen. Zudem profitiert man von stabileren Energiekosten, da die Preise für fossile Brennstoffe stark schwanken.
                         </p>
                         <p>
-                        Dieses Tool berechnet überschlagsmässig die benötigte Leistung der neuen Wärmepumpe, um die alte Ölheizung effizient zu ersetzen. Dabei ermittelt es auch die erforderliche Sondenlänge und analysiert den Energieverbrauch des bestehenden Heizsystems.                        <br />
+                        Dieses Tool berechnet überschlagsmässig die benötigte Leistung der neuen Wärmepumpe, um die alte Ölheizung zu ersetzen. Dabei ermittelt es auch die erforderliche Erdsondenlänge und analysiert den Energieverbrauch des bestehenden Heizsystems.                        <br />
                         </p>
                         <form action="calc1.php" method="POST"> 
                                 Ölverbrauch <input type=text name=value1 size=5> Liter pro Jahr<br><br>  
