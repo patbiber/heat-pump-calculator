@@ -23,22 +23,22 @@
 
                          if($ww == "ja" and $hoch == "ja"){
                               $result =sprintf("%01.1f",$number1 / 330); 
-                              echo("Für $number1 l Öl mit Warmwasseraufbereitung ist die benötigte Heizleistung bei über 800m $result. kW<br><br>");
+                              echo("Für $number1 l Öl mit Warmwasseraufbereitung ist die benötigte Heizleistung bei über 800m $result kW.<br><br>");
                               } 
 
                               elseif($hoch == "ja"){ 
                                    $result =sprintf("%01.1f",$number1 / 295); 
-                                   echo("Für $number1 l Öl ist die benötigte Heizleistung bei über 800m $result. kw<br><br>");   
+                                   echo("Für $number1 l Öl ist die benötigte Heizleistung bei über 800m $result kW.<br><br>");   
                               }
                          
                               elseif($ww == "ja"){ 
                                    $result =sprintf("%01.1f",$number1 / 300); 
-                                   echo("Für $number1 l Öl mit Warmwasseraufbereitung ist die benötigte Heizleistung $result. kw<br><br>"); 
+                                   echo("Für $number1 l Öl mit Warmwasseraufbereitung ist die benötigte Heizleistung $result kW.<br><br>"); 
                               }
                          
                               else {  
                                    $result =sprintf("%01.1f",$number1 / 265); 
-                                   echo("Für $number1 l Öl ist die benötigte Heizleistung $result. kW<br><br>");
+                                   echo("Für $number1 l Öl ist die benötigte Heizleistung $result kW.<br><br>");
                               }
 
                          $wpl =sprintf("%01.1f", $result / (24 - $ew) * 24);
