@@ -23,31 +23,31 @@
 
                          if($ww == "ja" and $hoch == "ja"){
                               $result =sprintf("%01.1f",$number1 / 330); 
-                              echo("für $number1 l Öl mit Warmwasseraufbereitung ist die benötigte Heizleistung bei über 800m $result kW<br><br>");
+                              echo("Für $number1 l Öl mit Warmwasseraufbereitung ist die benötigte Heizleistung bei über 800m $result. kW<br><br>");
                               } 
 
                               elseif($hoch == "ja"){ 
                                    $result =sprintf("%01.1f",$number1 / 295); 
-                                   echo("für $number1 l Öl ist die benötigte Heizleistung bei über 800m $result kw<br><br>");   
+                                   echo("Für $number1 l Öl ist die benötigte Heizleistung bei über 800m $result. kw<br><br>");   
                               }
                          
                               elseif($ww == "ja"){ 
                                    $result =sprintf("%01.1f",$number1 / 300); 
-                                   echo("für $number1 l Öl mit Warmwasseraufbereitung ist die benötigte Heizleistung $result kw<br><br>"); 
+                                   echo("Für $number1 l Öl mit Warmwasseraufbereitung ist die benötigte Heizleistung $result. kw<br><br>"); 
                               }
                          
                               else {  
                                    $result =sprintf("%01.1f",$number1 / 265); 
-                                   echo("für $number1 l Öl ist die benötigte Heizleistung $result kW<br><br>");
+                                   echo("Für $number1 l Öl ist die benötigte Heizleistung $result. kW<br><br>");
                               }
 
                          $wpl =sprintf("%01.1f", $result / (24 - $ew) * 24);
                          $wpd =sprintf("%01.1f", 24 - $ew);
-                         echo("Bei einer Laufdauer von $wpd Stunden am Tag, muss die Wärmepumpe eine Wärmeleistung von<b> $wpl </b>kW haben.");
+                         echo("Bei einer Laufdauer von $wpd Stunden am Tag, muss die Wärmepumpe eine Wärmeleistung von<b> $wpl </b>kW erbringen. ");
 
                          $wpe =sprintf("%01.1f", $wpl / 4);
                          $wpea =sprintf("%01.1f", $wpe * 1800);
-                         echo("Dafür braucht sie ca. $wpe kW elektrische Leistung.<br><br> Das sind im Jahr ca.<b> $wpea </b>kWh Strom.<br><br>");
+                         echo("Dafür braucht sie ca. $wpe kW elektrische Leistung.<br> Das sind im Jahr ca.<b> $wpea </b>kWh Strom.<br><br>");
 
                          $sl =sprintf("%01.0f", $wpl * 1000 / 50);
                          echo("Eine Erdsonde sollte mindestens<b> $sl m </b>tief sein.<br><br>");
@@ -62,7 +62,7 @@
                                    echo("Das Gebäude verbraucht <b>$qm Watt pro Quadratmeter</b><br>");
 
                                    if($qm > 60){
-                                   echo("<img src=pics/caution.jpg> Sie verbrauchen sehr viel Energie für die Heizung, eine Sanierung der Gebäudehülle wird sicher den Komfort erhöhen und grosse Kosteneinspahrungen bringen.");
+                                   echo("<img src=pics/caution.jpg> Sie verbrauchen sehr viel Energie Für die Heizung, eine Sanierung der Gebäudehülle wird sicher den Komfort erhöhen und grosse Kosteneinspahrungen bringen.");
                                              } 
 
                                         elseif($qm >= 31){ 
