@@ -43,7 +43,7 @@
 
                          $wpl =sprintf("%01.1f", $result / (24 - $ew) * 24);
                          $wpd =sprintf("%01.1f", 24 - $ew);
-                         echo("Bei einer Laufdauer von $wpd Stunden am Tag, muss die Wärmepumpe eine Wäremleistung von<b> $wpl </b>kW haben.");
+                         echo("Bei einer Laufdauer von $wpd Stunden am Tag, muss die Wärmepumpe eine Wärmeleistung von<b> $wpl </b>kW haben.");
 
                          $wpe =sprintf("%01.1f", $wpl / 4);
                          $wpea =sprintf("%01.1f", $wpe * 1800);
@@ -75,7 +75,7 @@
                          ?>
                          <br><br>
 
-                    <a href="https://biber.solar/heat-pump-calculator">zurück zum Wäremepumpenrechner</a>
+                    <a href="https://biber.solar/heat-pump-calculator">zurück zum Wärmepumpenrechner</a>
                     <?PHP include ('footer.php'); ?>
      </body>
 </html>
